@@ -17,7 +17,7 @@ body { margin: 0;  }
 
 @font-face {
   font-family: 'goodDog';
-  src: url('/assets/fonts/good-dog.ttf');
+  src: url('AssciacaoEstrelaDoAmanha/assets/fonts/good-dog.ttf');
 }
 
 .body {
@@ -48,7 +48,7 @@ header {
   padding-left: 10px;
   padding-right: 10px;
   background-color: #00a0fe;
-  background-image: url("/assets/images/logo.png");
+  background-image: url("AssciacaoEstrelaDoAmanha/assets/images/logo.png");
   background-repeat: no-repeat;
   background-size: auto 100%;
 }
