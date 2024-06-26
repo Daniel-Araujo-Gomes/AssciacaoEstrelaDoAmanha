@@ -17,7 +17,7 @@ body { margin: 0;  }
 
 @font-face {
   font-family: 'goodDog';
-  src: url('good-dog.ttf');
+  src: url('/assets/fonts/good-dog.ttf');
 }
 
 .body {
@@ -48,7 +48,7 @@ header {
   padding-left: 10px;
   padding-right: 10px;
   background-color: #00a0fe;
-  background-image: url("logo.png");
+  background-image: url("/assets/images/logo.png");
   background-repeat: no-repeat;
   background-size: auto 100%;
 }
@@ -152,7 +152,7 @@ main section.sec-2 > div.container {
 main section.sec-2 > div.container > div.img {
   height: 300px;
   width: 100%;
-  background: url(https://static1.s123-cdn-static-a.com/uploads/9383162/800_6679f72f145d3.jpg);
+  background: url("https://static1.s123-cdn-static-a.com/uploads/9383162/800_6679f72f145d3.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
