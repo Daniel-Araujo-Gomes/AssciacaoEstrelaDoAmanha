@@ -22,6 +22,7 @@ body { margin: 0;  }
 
 .body {
   display: grid;
+  height: 100vh;
   max-height: 100%;
   width: 100%;
   margin: 0;
@@ -37,6 +38,7 @@ main {
   grid-area: main;
   border-bottom: 1px solid;
   overflow: auto;
+  overflow-x: hidden;
   padding: 0;
 }
 
