@@ -17,7 +17,7 @@ body { margin: 0;  }
 
 @font-face {
   font-family: 'goodDog';
-  src: url('AssciacaoEstrelaDoAmanha/assets/fonts/good-dog.ttf');
+  src: url('../fonts/good-dog.ttf');
 }
 
 .body {
