@@ -138,40 +138,57 @@ main section.sec-1 > div.container > p{
 }
 
 main > section.sec-2 {
-  background: #f9f9f9;
+  background: white;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 main section.sec-2 > div.container {
   align-items: center;
   justify-content: center;
+  z-index: 100;
+}
+
+main section.sec-2 > div.fundo {
+  position: absolute;
+  bottom: 50px;
+  height: 380px;
+  width: 100%;
+  background-color: #f9f9f9;
 }
 
 main section.sec-2 > div.container > div.img {
-  height: 300px;
+  height: 450px;
   width: 100%;
+  min-width: 200px;
   background: url("https://static1.s123-cdn-static-a.com/uploads/9383162/800_6679f72f145d3.jpg");
-  background-position: center center;
+  background-position: -310px center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
 main section.sec-2 > div.container > div.card {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-radius: 5px;
   height: 270px;
   padding: 15px;
   margin-left: 15px;
-  box-shadow: 10px 10px 31px -19px rgba(0,0,0,0.75);
 }
 
+main section.sec-2 > div.container > div.card > h2 {
+  text-align: start;
+}
+
+main section.sec-2 > div.container > div.card > hr {
+  margin: 0;
+}
 
 main section.sec-2 > div.container > div.card > p {
-  text-align: center;
   color: black;
   font-size: 0.75rem;
 }
@@ -453,4 +470,30 @@ textarea {
   .title {
     display: none;
   }
+
+  main section.sec-4 {
+    height: auto !important;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  main section.sec-4 > div.container > div.card > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 15px; 
+  }
+
+  main section.sec-4 > div.container > div.card > div > div {
+    display: flex;
+  }
+
+  main section.sec-4 > div.container > div.card > div > div > div.img {
+    width: 250px;
+    height: 150px;
+    margin-right: 10px;
+  }
+
+
 }
