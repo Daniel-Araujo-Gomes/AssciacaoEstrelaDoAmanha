@@ -355,8 +355,8 @@ main section.sec-6 > div.container > div.card > hr {
 }
 
 main section.sec-6 > div.container > div.card > div {
- display: flex;
- gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 main section.sec-6 > div.container > div.card > div > div.info {
@@ -364,98 +364,92 @@ main section.sec-6 > div.container > div.card > div > div.info {
   display: flex;
   flex-direction: column;
   justify-content: center;
- }
+}
 
- main section.sec-6 > div.container > div.card > div > div.info > div {
+main section.sec-6 > div.container > div.card > div > div.info > div {
   font-size: 0.7rem;
   text-align: center;
   margin-bottom: 15px;
- }
- main section.sec-6 > div.container > div.card > div > div.info > p {
+}
+
+main section.sec-6 > div.container > div.card > div > div.info > p {
   font-size: 0.7rem;
   color: #e8365a;
   margin: 0;
   padding: 0;
   text-align: center;
- }
+}
 
- main section.sec-6 > div.container > div.card > div > div.info > p > i {
+main section.sec-6 > div.container > div.card > div > div.info > p > i {
   margin-right: 5px;
- }
+}
 
- main section.sec-6 > div.container > div.card > div > div.form {
+main section.sec-6 > div.container > div.card > div > div.form {
   width: 300px;
- }
+}
 
- main section.sec-6 > div.container > div.card > div > div.form > form {
+main section.sec-6 > div.container > div.card > div > div.form > form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
- }
+}
 
- main section.sec-6 > div.container > div.card > div > div.form > form > div{
+main section.sec-6 > div.container > div.card > div > div.form > form > div{
   display: flex;
   gap: 10px;
- }
+}
 
- main section.sec-6 > div.container > div.card > div > div.form > form > div > input{
+main section.sec-6 > div.container > div.card > div > div.form > form > div > input{
   width: 50%;
- }
+}
 
- main section.sec-6 > div.container > div.card > div > div.form > form > button{
+main section.sec-6 > div.container > div.card > div > div.form > form > button{
   background-color: #e8365a;
   border: solid 1px rgb(170, 169, 169);
   padding: 10px;
   color: white;
   cursor: pointer;
   border-radius: 5px;
- }
+}
 
- input, textarea {
+input, textarea {
   border: solid 1px rgb(170, 169, 169);
   border-radius: 5px;
   padding: 5px;
   font-size: 0.7rem;
- } 
+} 
 
- textarea {
+textarea {
   resize: none;
- }
+}
 
  @media only screen and ( max-width: 768px) {
-  
   h2 {
     font-size: 2rem !important;
   }
-
   main section > div.container {
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
   }
-
   main section.sec-6 > div.container > div.card > div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   }
-
-   header {
+  }
+  header {
     grid-area: header;
     align-items: flex-end;
     justify-content: flex-end;
-   }
-
-   header > div > ul.menu {
+  }
+  header > div > ul.menu {
     margin-bottom: 7px !important;
   }
-
-   header > div > ul.menu li a {
+  header > div > ul.menu li a {
     letter-spacing: 1px;
     font-size: 1rem;
-   }
-
+  }
   .title {
     display: none;
   }
